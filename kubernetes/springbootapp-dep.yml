@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: sample-springboot-app
+ labels:
+   app: sample-springboot-app
+spec:
+ selector:
+   matchLabels:
+     app: sample-springboot-app
+ template:
+   metadata:
+      labels:
+        app: sample-springboot-app
+   spec:
+     containers:
+     - image: springboot-k8s-example:1.0
+       name: springboot-chat
+       imagePullPolicy: IfNotPresent
+       ports:
+         - containerPort: 8080
