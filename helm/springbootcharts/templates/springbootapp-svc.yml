@@ -10,5 +10,5 @@ spec:
       protocol: TCP
     selector:
       app: sample-springboot-app
-    type: Loadbalancer
+    type: ClusterIP
 
