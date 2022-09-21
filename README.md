@@ -17,7 +17,7 @@
 *  Run and test the job.
 ## **Analysis of Our Github Repository(cicd-kube-spring .main branch)**
 ---
-   [github link](https://github.com/easyboss1/cicd-kube-spring.git)h
+   [github link click here](https://github.com/easyboss1/cicd-kube-spring.git)
 - helm directory consist of a template directory in it which contains all our secret,service and deployment files for postgres database,RabbitMQ,memcached,Springboot app . 
 - src directory contains the source files needed to the source files needed for our springboot app deployment. 
 - Dockerfile which consist of a text-based script instructions used to build our Springboot app container image.
