@@ -1,4 +1,4 @@
-# **JAVA SPRINGBOOT PROJECT
+# ** JAVA SPRINGBOOT PROJECT
 ---
 ## Flow of Execution
 - VPC setup was done to have control over our network enviroment and prevent malware attacks.
